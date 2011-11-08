@@ -11,8 +11,8 @@
   <script type="text/javascript"
     src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=0.1"></script>
   <script type="text/javascript"
-    src="//gist.github.com/raw/1346865/4b57de72381ce513157fcb92a91b7ae43ed34e20/basic.js"></script>
+    src="https://gist.github.com/raw/1346865/4b57de72381ce513157fcb92a91b7ae43ed34e20/basic.js"></script>
   <link type="text/css" rel="stylesheet"
-    href="//myserver.com/google+/hangoutapps/styles.css" />
+    href="https://gist.github.com/raw/1346865/7581b3a3d3eef37ef867e0eff4c02bc46bdb7028/styles.css" />
 ]]></Content>
 </Module>
