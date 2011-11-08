@@ -6,7 +6,7 @@
     var moodField = $('<input/>').attr({
       'id': 'mood-field',
       'type': 'text',
-      'maxlength', 40
+      'maxlength': 40
     });
     var submitButton = $('<input/>').attr({
       'id': 'mood-submit',
