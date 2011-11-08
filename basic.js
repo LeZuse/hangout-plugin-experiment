@@ -16,7 +16,7 @@
     var moodForm = $('<form/>').attr({
       'id': 'mood-form',
       'action': ''
-    }).append(moodField).append(submitButton);
+    }).append($('<legend/>').append(moodField).append(submitButton);
     moodForm.submit(onMoodFormSubmit);
     var moodNotices = $('<div/>').attr({
       'id': 'mood-notices'
@@ -37,8 +37,8 @@
     gapi.hangout.onApiReady.add(function (evt) {
       if (apiReadyEvent.isApiReady) {
         // enter your application code here.
-        alert('yo yo yo');
         setupMoodUI();
+        $('legend').html('Yo yo yo');
         alert('end');
       }
     });
