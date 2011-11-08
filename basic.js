@@ -2,7 +2,9 @@
 (function () {
 
   // setup UI elements for the G+ Hangout gadget/app
-  function setupMoodUI() {
+  function setupFormHandler() {
+    var moodForm = $('#mood-form');
+    moodForm.submit(onMoodFormSubmit);
   }
 
   function onMoodFormSubmit(evt) {
@@ -17,9 +19,7 @@
     gapi.hangout.onApiReady.add(function (evt) {
       if (apiReadyEvent.isApiReady) {
         // enter your application code here.
-        setupMoodUI();
-        $('legend').html('Yo yo yo');
-        alert('end');
+        setupFormHandler();
       }
     });
   }
