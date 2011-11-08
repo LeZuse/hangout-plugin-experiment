@@ -5,13 +5,14 @@
   <Require feature="views"/>
 </ModulePrefs>
 <Content type="html"><![CDATA[
+  <link type="text/css" rel="stylesheet"
+    href="https://gist.github.com/raw/1346865/34722525d7f84952bc170159f97abe09cddac2ea/styles.css" />
+  <div id="container"></div>
   <script type="text/javascript" src="//www.google.com/jsapi"></script>
   <script type="text/javascript">google.load("jquery", "1.6.4");</script>
   <script type="text/javascript"
     src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=0.1"></script>
   <script type="text/javascript"
     src="https://gist.github.com/raw/1346865/418d1444dd930d77efd3426b6b156dad9b3614b2/basic.js"></script>
-  <link type="text/css" rel="stylesheet"
-    href="https://gist.github.com/raw/1346865/34722525d7f84952bc170159f97abe09cddac2ea/styles.css" />
 ]]></Content>
 </Module>
