@@ -11,7 +11,7 @@
   <script type="text/javascript"
     src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=0.1"></script>
   <script type="text/javascript"
-    src="//myserver.com/google+/hangoutapps/basic.js"></script>
+    src="//gist.github.com/raw/1346865/4b57de72381ce513157fcb92a91b7ae43ed34e20/basic.js"></script>
   <link type="text/css" rel="stylesheet"
     href="//myserver.com/google+/hangoutapps/styles.css" />
 ]]></Content>
