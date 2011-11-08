@@ -7,7 +7,15 @@
 <Content type="html"><![CDATA[
   <link type="text/css" rel="stylesheet"
     href="https://gist.github.com/raw/1346865/34722525d7f84952bc170159f97abe09cddac2ea/styles.css" />
-  <div id="container"></div>
+  <div id="container">
+    <div id="mood-notices">
+    </div>
+    <form id="mood-form">
+      <legend>Enter your current mood here</legend>
+      <input type="text" name="mood-field" id="mood-field" maxlength="40"/>
+      <input type="submit" value="Broadcast" id="mood-submit"/>
+    </form>
+  </div>
   <script type="text/javascript" src="//www.google.com/jsapi"></script>
   <script type="text/javascript">google.load("jquery", "1.6.4");</script>
   <script type="text/javascript"

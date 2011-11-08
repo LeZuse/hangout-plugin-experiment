@@ -3,26 +3,6 @@
 
   // setup UI elements for the G+ Hangout gadget/app
   function setupMoodUI() {
-    var moodField = $('<input/>').attr({
-      'id': 'mood-field',
-      'type': 'text',
-      'maxlength': 40
-    });
-    var submitButton = $('<input/>').attr({
-      'id': 'mood-submit',
-      'type': 'submit',
-      'value': 'Broadcast'
-    });
-    var moodForm = $('<form/>').attr({
-      'id': 'mood-form',
-      'action': ''
-    }).append($('<legend/>').append(moodField).append(submitButton);
-    moodForm.submit(onMoodFormSubmit);
-    var moodNotices = $('<div/>').attr({
-      'id': 'mood-notices'
-    });
-    var container = $('#container');
-    container.append(moodNotices).append(moodForm);
   }
 
   function onMoodFormSubmit(evt) {
