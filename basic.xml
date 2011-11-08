@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+  <ModulePrefs title="@SusanPotter's basic app for testing" height="300" width="600">
+  <Require feature="dynamic-height"/>
+  <Require feature="rpc"/>
+</ModulePrefs>
+<Content type="html"><![CDATA[
+  <script type="text/javascript" src="//www.google.com/jsapi"></script>
+  <script type="text/javascript">google.load("jquery", "1.6.4");</script>
+  <script type="text/javascript"
+    src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=0.1"></script>
+  <script type="text/javascript"
+    src="//myserver.com/google+/hangoutapps/basic.js"></script>
+  <link type="text/css" rel="stylesheet"
+    href="//myserver.com/google+/hangoutapps/styles.css" />
+]]></Content>
+</Module>
