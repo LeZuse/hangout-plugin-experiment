@@ -8,8 +8,9 @@
   }
 
   function onMoodFormSubmit(evt) {
-    var moodVal = $('mood-field').val();
-    var moodNotices = $('mood-notices');
+    alert("yo yo");
+    var moodVal = $('#mood-field').val();
+    var moodNotices = $('#mood-notices');
     var newNotice = $('<div>' + moodVal + '</div>');
     moodNotices.append(newNotice);
     return false;
