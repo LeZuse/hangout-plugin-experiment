@@ -37,7 +37,9 @@
     gapi.hangout.onApiReady.add(function (evt) {
       if (apiReadyEvent.isApiReady) {
         // enter your application code here.
+        alert('yo yo yo');
         setupMoodUI();
+        alert('end');
       }
     });
   }
