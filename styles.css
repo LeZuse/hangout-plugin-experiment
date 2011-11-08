@@ -7,3 +7,6 @@ form input[type=text] {
   border: 1px dashed #999;
 }
 
+form input {
+  display: block;
+}
