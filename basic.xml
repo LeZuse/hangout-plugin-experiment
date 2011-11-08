@@ -2,6 +2,7 @@
 <Module>
   <ModulePrefs title="@SusanPotter's basic app for testing" height="300" width="600">
   <Require feature="dynamic-height"/>
+  <Require feature="views"/>
   <Require feature="rpc"/>
 </ModulePrefs>
 <Content type="html"><![CDATA[
