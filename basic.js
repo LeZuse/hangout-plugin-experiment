@@ -21,8 +21,8 @@
     var moodNotices = $('<div/>').attr({
       'id': 'mood-notices'
     });
-    var body = $('body');
-    body.append(moodNotices).append(moodForm);
+    var container = $('#container');
+    container.append(moodNotices).append(moodForm);
   }
 
   function onMoodFormSubmit(evt) {
