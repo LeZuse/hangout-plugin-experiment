@@ -6,21 +6,19 @@
 </ModulePrefs>
 <Content type="html"><![CDATA[
   <link type="text/css" rel="stylesheet"
-    href="https://gist.github.com/raw/1346865/34722525d7f84952bc170159f97abe09cddac2ea/styles.css" />
+    href="https://lezuse.github.io/hangouts-plugin-experiment/styles.css" />
+
   <div id="container">
-    <div id="mood-notices">
-    </div>
-    <form id="mood-form">
-      <legend>Enter your current mood here</legend>
-      <input type="text" name="mood-field" id="mood-field" maxlength="40"/>
-      <input type="submit" value="Broadcast" id="mood-submit"/>
-    </form>
+    <div onclick={mute(true)}>mute</div>
+    <div onclick={mute(false)}>mute</div>
   </div>
+
   <script type="text/javascript" src="//www.google.com/jsapi"></script>
   <script type="text/javascript">google.load("jquery", "1.6.4");</script>
   <script type="text/javascript"
     src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=0.1"></script>
+
   <script type="text/javascript"
-    src="https://raw.github.com/gist/1346865/395e9e785e27a9e8b2eaca2d81833ce323233e7f/basic.js"></script>
+    src="https://lezuse.github.io/hangouts-plugin-experiment/basic.js"></script>
 ]]></Content>
 </Module>

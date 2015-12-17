@@ -25,3 +25,24 @@
     });
   }
 })();
+
+
+function mute(set) {
+  if (!gapi || !gapi.hangout) return console.log('failed loading');
+
+  // Array of Participant
+  // var parts = gapi.hangout.getEnabledParticipants();
+
+  // console.log(parts);
+
+  // if (parts.length > 0) {
+  //   if (set) {
+  //     gapi.hangout.av.muteParticipantMicrophone(parts[0]);
+  //   } else {
+  //     gapi.hangout.av.muteParticipantMicrophone(parts[0]);
+  //   }
+  // }
+
+  gapi.hangout.av.setMicrophoneMute(set);
+
+}
