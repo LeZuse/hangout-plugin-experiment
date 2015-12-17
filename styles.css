@@ -1,0 +1,12 @@
+body {
+  background: #444;
+  color: #eee;
+}
+
+form input[type=text] {
+  border: 1px dashed #999;
+}
+
+form input {
+  display: block;
+}
