@@ -17,6 +17,9 @@
   }
 
   if (gapi && gapi.hangout) {
+    // expose
+    window.gapi = gapi;
+    window.hangoutApi = gapi.hangout;
     gapi.hangout.onApiReady.add(function (evt) {
       if (apiReadyEvent.isApiReady) {
         // enter your application code here.
