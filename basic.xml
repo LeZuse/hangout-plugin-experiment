@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-  <ModulePrefs title="@SusanPotter's basic app for testing" height="300" width="600">
-  <Require feature="dynamic-height"/>
-  <Require feature="views"/>
+  <ModulePrefs title="@SusanPotter's basic app for testing" height="100" width="100">
+  <Require feature="rpc"/>
 </ModulePrefs>
 <Content type="html"><![CDATA[
   <link type="text/css" rel="stylesheet"
@@ -10,7 +9,7 @@
 
   <div id="container">
     <div onclick={mute(true)}>mute</div>
-    <div onclick={mute(false)}>unmute</div>
+    <div onclick={mute(false)}>mute</div>
   </div>
 
   <script type="text/javascript" src="//www.google.com/jsapi"></script>
