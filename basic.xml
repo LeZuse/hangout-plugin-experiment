@@ -9,7 +9,7 @@
 
   <div id="container">
     <div onclick={mute(true)}>mute</div>
-    <div onclick={mute(false)}>mute</div>
+    <div onclick={mute(false)}>unmute</div>
   </div>
 
   <script type="text/javascript" src="//www.google.com/jsapi"></script>
