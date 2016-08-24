@@ -21,10 +21,10 @@
     window.gapi = gapi;
     window.hangoutApi = gapi.hangout;
     gapi.hangout.onApiReady.add(function (evt) {
-      if (apiReadyEvent.isApiReady) {
+      //if (apiReadyEvent.isApiReady) {
         // enter your application code here.
-        setupFormHandler();
-      }
+        //setupFormHandler();
+      //}
     });
     window.addEventListener('keyup', function(e){
       console.log(e.keyCode, e);
